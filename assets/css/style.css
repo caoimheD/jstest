@@ -1,0 +1,59 @@
+body {
+    font-family: ;
+    margin: 0
+    background-color: lightblue;
+}
+
+header {
+    text-align: center;
+    height: 50px;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    min-height: 50px;
+    text-align: center;
+    background-color: aquamarine;
+}
+
+.the-game {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 1%;
+}
+
+.choice {
+    display: inline-block;
+    width: 80px;
+    height: 40px;
+    margin: 2px;
+}
+
+.user {
+    background-color: aquamarine;
+    float: left;
+    width: 45%;
+}
+
+#user-img {
+    width: 75%;
+}
+
+.computer {
+    background-color: pink;
+    float: right;
+    width: 45%;
+}
+
+#comp-img {
+    width: 75%;
+}
+
+#message {
+    height: 20px;
+}
