@@ -7,6 +7,7 @@ let computerScore = document.getElementById("comp-score");
 let playerImage = document.getElementById("user-img");
 let computerImage = document.getElementById("comp-img");
 let messages = document.getElementById("messages");
+let reset = document.getElementsByClassName("reset");
 
 /**
  * Add event listener to buttons
